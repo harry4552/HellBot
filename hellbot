@@ -19,7 +19,7 @@ _get_repolink () {
             echo "${HELL_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZVZhZGVycy9WYWRlci9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2hhcnJ5NDU1Mi9WYWRlci9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     fi
 }
 
